@@ -123,3 +123,8 @@ body {
 .speaker-designation{
   color: #5f6368
 }
+
+.header-bg {
+  color: #202124;
+  background-color: #eeeeee;
+}
