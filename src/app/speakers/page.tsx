@@ -1,6 +1,8 @@
 import React from 'react';
 import SpeakerCard from '../components/SpeakerCard';
 import Header from '../components/Header';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 // Generate the speaker list
 const speakers = [
@@ -40,12 +42,14 @@ const speakers = [
 const SpeakersPage: React.FC = () => {
   return (
     <div>
+      <Navbar/>
       <Header title='Speakers'/>
       <div className="grid grid-cols-1 gap-12 md:gap-24 sm:grid-cols-2 lg:grid-cols-3">
         {speakers.map((speaker, index) => (
           <SpeakerCard key={index} speaker={speaker} />
         ))}
       </div>  
+      <Footer/>
     </div>
   );
 };

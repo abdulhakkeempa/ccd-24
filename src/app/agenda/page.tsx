@@ -1,6 +1,8 @@
 import Header from "../components/Header";
 import React from 'react';
 import AccordionItem from "../components/Accordion";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 const agendaList = [
   {
@@ -39,6 +41,7 @@ const agendaList = [
 export default function Agenda() {
   return (
     <div>
+      <Navbar/>
       <Header title="Agenda"/>
       <div className="mx-4 md:mx-24 my-6">
         <h3 className="text-2xl font-bold">Main Hall</h3>
@@ -50,7 +53,7 @@ export default function Agenda() {
           </div>
         ))}
       </div>
-
+      <Footer/>
     </div>
   );
 }
