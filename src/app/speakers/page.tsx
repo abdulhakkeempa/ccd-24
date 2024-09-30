@@ -25,6 +25,12 @@ const speakers = [
     company: "Google Developer Expert for GCP"
   },
   {
+    image: '/images/speakers/Sachin.jpg',
+    name: 'Sachin Kumar',
+    designation: 'Senior VP of Product Engineering at Intellitek.AI',
+    company: "GDE, Google for Startups Accelerator Mentor"
+  },
+  {
     image: '/images/speakers/Anubhav Singh.png',
     name: 'Anubhav Singh',
     designation: 'Co-founder at Callchimp.ai',
@@ -61,10 +67,10 @@ const speakers = [
     company: "ZappyHire"
   },
   {
-    image: '/images/speakers/Sachin.jpg',
-    name: 'Sachin Kumar',
-    designation: 'Senior VP of Product Engineering at Intellitek.AI',
-    company: "GDE, Google for Startups Accelerator Mentor"
+    image: '/images/speakers/Nitin Suresh.jpg',
+    name: 'Nitin Suresh',
+    designation: 'Senior Associate- Product Management',
+    company: "ZappyHire"
   },
 ];
 

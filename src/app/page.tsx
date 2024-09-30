@@ -23,7 +23,7 @@ export default function Home() {
             </button>
         </div>
       </div>
-      <div className="container w-full bg-gray-600 mx-auto p-5">
+      <div className="container w-full google-blue mx-auto p-5">
         <Countdown />
       </div>
       <div className="px-4 md:px-24">
