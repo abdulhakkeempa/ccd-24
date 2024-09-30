@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar/>
       <div className="w-full flex flex-col justify-center items-center py-36">
         <Image 
-          src="https://ccd.gdgcloudkochi.com/static/media/Logo-Center.9ca41407952f70a813f2c2edfe751df4.svg"
+          src="images/landing-image.svg"
           alt="logo"
           width={700}
           height={500}
