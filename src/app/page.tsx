@@ -2,7 +2,6 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Countdown from "./components/CountdownTimer";
-import TextCard from "./components/TextCard";
 import Link from "next/link";
 
 
