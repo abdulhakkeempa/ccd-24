@@ -165,3 +165,20 @@ p {
   font-size: 1.25rem;
   color: #ffffff;
 }
+
+
+.google-blue {
+  background-color: #4285f4;
+}
+
+.google-red {
+  background-color: #ea4335;
+}
+
+.google-green {
+  background-color: #34a853;
+}
+
+.google-yellow {
+  background-color: #fbbc04;
+}

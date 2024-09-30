@@ -18,7 +18,7 @@ export default function Home() {
           className="w-full max-w-[700px] h-auto"
         />
         <div className='mt-4'>
-            <button className="bg-blue-700 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded">
+            <button className="google-blue text-white font-medium py-2 px-4 rounded">
               <Link href="https://konfhub.com/google-cloud-community-day-kochi-2024">Register Now</Link> 
             </button>
         </div>
@@ -57,17 +57,17 @@ export default function Home() {
         <div className="p-5">
           <h1 className="text-4xl font-semibold text-gray-800">What to expect?</h1>
           <div className="grid grid-cols-1 gap-6 md:gap-24 sm:grid-cols-2 lg:grid-cols-3 py-6">
-            <div className={`w-full p-4 bg-red-500 rounded-lg shadow-md mb-4`}>
+            <div className={`w-full p-4 google-red rounded-lg shadow-md mb-4`}>
               <h1 className="text-2xl font-semibold text-gray-800">Explore</h1>
-              <p className="mt-2 text-base font-semibold text-gray-800">Join technical sessions and Q&As to help you apply the best practices from experts.</p>
+              <p className="mt-2 text-lg font-semibold text-gray-800">Join technical sessions and Q&As to help you apply the best practices from experts.</p>
             </div>
-            <div className={`w-full p-4 bg-green-500 rounded-lg shadow-md mb-4`}>
+            <div className={`w-full p-4 google-green rounded-lg shadow-md mb-4`}>
               <h1 className="text-2xl font-semibold text-gray-800">Learn</h1>
-              <p className="mt-2 text-base font-semibold text-gray-800">Get hands-on with instructor-led workshops and check out the latest demos.</p>
+              <p className="mt-2 text-lg font-semibold text-gray-800">Get hands-on with instructor-led workshops and check out the latest demos.</p>
             </div>
-            <div className={`w-full p-4 bg-yellow-500 rounded-lg shadow-md mb-4`}>
+            <div className={`w-full p-4 google-yellow rounded-lg shadow-md mb-4`}>
               <h1 className="text-2xl font-semibold text-gray-800">Connect</h1>
-              <p className="mt-2 text-base font-semibold text-gray-800">Network with the people who build the technology you love. You can also expand your network and meet with other developers from India.</p>
+              <p className="mt-2 text-lg font-semibold text-gray-800">Network with the people who build the technology you love. You can also expand your network and meet with other developers from India.</p>
             </div>
           </div>
         </div>
