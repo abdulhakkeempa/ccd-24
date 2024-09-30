@@ -26,6 +26,10 @@ export default function Navbar() {
           {/* <Link href="/agenda" className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-gray-900">
               Agenda
           </Link> */}
+          <Link href="/partners" className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-gray-900 mr-4">
+              Partners
+          </Link>
+
           <div className='mt-4 md:mt-0'>
           
             <button className="google-blue text-white font-medium py-2 px-4 rounded">
