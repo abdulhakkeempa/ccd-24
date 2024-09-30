@@ -3,27 +3,27 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 
-const community = [
-  {
-    name: 'GDG Cloud Kochi',
-    link: 'https://gdg.community.dev/gdg-cloud-kochi',
-    image: 'logo_path'
-  },
-  {
-    name: 'GDG Cloud Kochi',
-    link: 'https://gdg.community.dev/gdg-cloud-kochi',
-    image: 'logo_path'
-  },
-]
+// const community = [
+//   {
+//     name: 'GDG Cloud Kochi',
+//     link: 'https://gdg.community.dev/gdg-cloud-kochi',
+//     image: 'logo_path'
+//   },
+//   {
+//     name: 'GDG Cloud Kochi',
+//     link: 'https://gdg.community.dev/gdg-cloud-kochi',
+//     image: 'logo_path'
+//   },
+// ]
 
 
-const silverSponsor = [
-  {
-    name: 'Pattern Labs AI',
-    link: 'https://gdg.community.dev/gdg-cloud-kochi',
-    image: 'logo_path'
-  }
-]
+// const silverSponsor = [
+//   {
+//     name: 'Pattern Labs AI',
+//     link: 'https://gdg.community.dev/gdg-cloud-kochi',
+//     image: 'logo_path'
+//   }
+// ]
 
 
 
