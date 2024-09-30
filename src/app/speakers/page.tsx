@@ -7,34 +7,64 @@ import Footer from '../components/Footer';
 // Generate the speaker list
 const speakers = [
   {
-    image: '/images/speaker-1.jpeg',
+    image: '/images/speakers/Abirami.jpeg',
     name: 'Abhirami Sukumaran',
-    designation: 'Developer Advocate, Google',
+    designation: 'Lead Developer Advocate',
+    company: "Google"
   },
   {
-    image: '/images/speaker-1.jpeg',
-    name: 'Kiran S Raj',
-    designation: 'Lead Data Scientist, BuildNxt',
+    image: '/images/speakers/Dana Vishnu.jpg',
+    name: 'Dana Vishnu',
+    designation: 'Software Engineer, Microsoft',
+    company: "Microsoft"
   },
   {
-    image: '/images/speaker-1.jpeg',
-    name: 'John Smith',
-    designation: 'CEO, Company C',
+    image: '/images/speakers/Abhishek.JPG',
+    name: 'Abhishek Sharma',
+    designation: 'Senior Cloud Engineer, Searce Inc',
+    company: "Google Developer Expert for GCP"
   },
   {
-    image: '/images/speaker-1.jpeg',
-    name: 'Abhirami Sukumaran',
-    designation: 'Developer Advocate, Google',
+    image: '/images/speakers/Anubhav Singh.png',
+    name: 'Anubhav Singh',
+    designation: 'Co-founder at Callchimp.ai',
+    company: "Google Developer Expert for ML & GCP"
   },
   {
-    image: '/images/speaker-1.jpeg',
-    name: 'Kiran S Raj',
-    designation: 'Lead Data Scientist, BuildNxt',
+    image: '/images/speakers/Varun.png',
+    name: 'Varun Raj',
+    designation: 'Co-founder & CIO, Skcript',
+    company: "Google Developer Expert for Firebase"
   },
   {
-    image: '/images/speaker-1.jpeg',
-    name: 'John Smith',
-    designation: 'CEO, Company C',
+    image: '/images/speakers/Ayush.jpg',
+    name: 'Aayush Arora',
+    designation: 'Founder',
+    company: "FilterPixel"
+  },
+  {
+    image: '/images/speakers/Biswanath.jpeg',
+    name: 'Biswanath',
+    designation: 'Google Cloud Principal Architect',
+    company: "Google Developer Expert for GCP"
+  },
+  {
+    image: '/images/speakers/Rejion Jose.jpg',
+    name: 'Rejin Jose K',
+    designation: 'Deputy Manager Business Analytics',
+    company: "Allianz Services"
+  },
+  {
+    image: '/images/speakers/Deepu.jpeg',
+    name: 'Deepu Xavier',
+    designation: 'Co-founder',
+    company: "ZappyHire"
+  },
+  {
+    image: '/images/speakers/Sachin.jpg',
+    name: 'Sachin Kumar',
+    designation: 'Senior VP of Product Engineering at Intellitek.AI',
+    company: "GDE, Google for Startups Accelerator Mentor"
   },
 ];
 
