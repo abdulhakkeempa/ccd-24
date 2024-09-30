@@ -6,36 +6,113 @@ import Navbar from "../components/Navbar";
 
 const agendaList = [
   {
-    "title": "Keynote",
-    "time": "10:00 AM - 11:00 AM",
-    "speaker": "Kiran S Raj",
+    "track": "Main Hall",
+    "sessions": [
+      {
+        "title": "Keynote",
+        "time": "10:00 AM - 11:00 AM",
+        "speaker": "Kiran S Raj"
+      },
+      {
+        "title": "Panel Discussion",
+        "time": "1:00 PM - 2:00 PM",
+        "speaker": "Various Speakers"
+      },
+      {
+        "title": "Keynote",
+        "time": "10:00 AM - 11:00 AM",
+        "speaker": "Kiran S Raj"
+      },
+      {
+        "title": "Panel Discussion",
+        "time": "1:00 PM - 2:00 PM",
+        "speaker": "Various Speakers"
+      },
+      {
+        "title": "Keynote",
+        "time": "10:00 AM - 11:00 AM",
+        "speaker": "Kiran S Raj"
+      },
+      {
+        "title": "Panel Discussion",
+        "time": "1:00 PM - 2:00 PM",
+        "speaker": "Various Speakers"
+      }
+    ]
   },
   {
-    "title": "Keynote 2",
-    "time": "10:00 AM - 11:00 AM",
-    "speaker": "Abhirami Sukumaran",
+    "track": "Track - 1",
+    "sessions": [
+      {
+        "title": "Keynote",
+        "time": "10:00 AM - 11:00 AM",
+        "speaker": "Kiran S Raj"
+      },
+      {
+        "title": "Panel Discussion",
+        "time": "1:00 PM - 2:00 PM",
+        "speaker": "Various Speakers"
+      },
+      {
+        "title": "Keynote",
+        "time": "10:00 AM - 11:00 AM",
+        "speaker": "Kiran S Raj"
+      },
+      {
+        "title": "Panel Discussion",
+        "time": "1:00 PM - 2:00 PM",
+        "speaker": "Various Speakers"
+      },
+      {
+        "title": "Keynote",
+        "time": "10:00 AM - 11:00 AM",
+        "speaker": "Kiran S Raj"
+      },
+      {
+        "title": "Panel Discussion",
+        "time": "1:00 PM - 2:00 PM",
+        "speaker": "Various Speakers"
+      }
+    ]
   },
   {
-    "title": "Keynote",
-    "time": "10:00 AM - 11:00 AM",
-    "speaker": "Kiran S Raj",
+    "track": "Track - 2",
+    "sessions": [
+      {
+        "title": "Keynote",
+        "time": "10:00 AM - 11:00 AM",
+        "speaker": "Kiran S Raj"
+      },
+      {
+        "title": "Panel Discussion",
+        "time": "1:00 PM - 2:00 PM",
+        "speaker": "Various Speakers"
+      },
+      {
+        "title": "Keynote",
+        "time": "10:00 AM - 11:00 AM",
+        "speaker": "Kiran S Raj"
+      },
+      {
+        "title": "Panel Discussion",
+        "time": "1:00 PM - 2:00 PM",
+        "speaker": "Various Speakers"
+      },
+      {
+        "title": "Keynote",
+        "time": "10:00 AM - 11:00 AM",
+        "speaker": "Kiran S Raj"
+      },
+      {
+        "title": "Panel Discussion",
+        "time": "1:00 PM - 2:00 PM",
+        "speaker": "Various Speakers"
+      }
+    ]
   },
-  {
-    "title": "Keynote 2",
-    "time": "10:00 AM - 11:00 AM",
-    "speaker": "Abhirami Sukumaran",
-  },
-  {
-    "title": "Keynote",
-    "time": "10:00 AM - 11:00 AM",
-    "speaker": "Kiran S Raj",
-  },
-  {
-    "title": "Keynote 2",
-    "time": "10:00 AM - 11:00 AM",
-    "speaker": "Abhirami Sukumaran",
-  },
-]
+];
+
+
 
 
 export default function Agenda() {
@@ -44,12 +121,20 @@ export default function Agenda() {
       <Navbar/>
       <Header title="Agenda"/>
       <div className="mx-4 md:mx-24 mt-6">
-        <h3 className="text-2xl font-bold">Main Hall</h3>
-      </div>
-      <div className="mx-4 md:mx-24 py-6">
-        {agendaList.map((agenda, index) => (
-          <div key={index} className="flex flex-col items-center gap-4">
-            <AccordionItem title={agenda.title} time={agenda.time} speaker={agenda.speaker}/>
+        {agendaList.map((track, trackIndex) => (
+          <div key={trackIndex}>
+            <h3 className="text-2xl font-bold">{track.track}</h3>
+            <div className="py-6">
+              {track.sessions.map((session, sessionIndex) => (
+                <div key={sessionIndex} className="flex flex-col items-center gap-4">
+                  <AccordionItem 
+                    title={session.title} 
+                    time={session.time} 
+                    speaker={session.speaker}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         ))}
       </div>

@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className="sm:top-0 z-10 flex items-center justify-between flex-wrap p-8 mx-auto bg-white rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-90 shadow-lg">
       <div className="flex items-center flex-shrink-0 text-gray-900 mr-6">
         <Link className="font-semibold text-2xl tracking-tight" href="/">
-            <Image src="/images/CCD Logo - Left Aligned.svg" alt="logo" width={200} height={24}/>
+            <Image src="/images/CCD Logo - Left Aligned.svg" alt="logo" width={150} height={24}/>
         </Link>
       </div>
       <div className="block lg:hidden">
