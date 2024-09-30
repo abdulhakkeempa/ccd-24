@@ -73,7 +73,7 @@ export default function Partners(){
             <div className="google-grey-900  text-white py-6">
               <h1 className="text-3xl md:text-4xl font-semibold text-center">Silver Sponsor</h1>
             </div>
-            <div className="grid grid-cols-2 gap-12 md:gap-24 sm:grid-cols-2 lg:grid-cols-4 py-12">
+            <div className="grid grid-cols-1 gap-12 md:gap-24 sm:grid-cols-1 lg:grid-cols-4 py-12">
               {silverSponsor.map((partner, index) => (
                 <div key={index} className="flex justify-center items-center">
                 <Link href={partner.link}>
