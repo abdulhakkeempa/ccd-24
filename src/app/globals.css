@@ -128,3 +128,40 @@ body {
   color: #202124;
   background-color: #eeeeee;
 }
+
+.clock {
+  color: white;
+  perspective: 100vw;
+  perspective-origin: 50% 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.digit-container {
+  display: flex;
+  align-items: center;
+}
+
+.digit {
+  font-size: 2rem;
+  font-weight: bold;
+  background: #ffffff33;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  margin: 0 0.2rem;
+}
+
+.digit-value {
+  color: #ffffff;
+  display: block;
+}
+
+p {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
