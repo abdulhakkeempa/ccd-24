@@ -2,112 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@font-face {
-  font-family: 'Product Sans';
-  src: url('/src/app/fonts/ProductSans-Black.ttf') format('truetype');
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Product Sans';
-  src: url('/src/app/fonts/ProductSans-BlackItalic.ttf') format('truetype');
-  font-weight: 900;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Product Sans';
-  src: url('/src/app/fonts/ProductSans-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Product Sans';
-  src: url('/src/app/fonts/ProductSans-BoldItalic.ttf') format('truetype');
-  font-weight: 700;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Product Sans';
-  src: url('/src/app/fonts/ProductSans-Italic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Product Sans';
-  src: url('/src/app/fonts/ProductSans-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Product Sans';
-  src: url('/src/app/fonts/ProductSans-LightItalic.ttf') format('truetype');
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Product Sans';
-  src: url('/src/app/fonts/ProductSans-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Product Sans';
-  src: url('/src/app/fonts/ProductSans-MediumItalic.ttf') format('truetype');
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Product Sans';
-  src: url('/src/app/fonts/ProductSans-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Product Sans';
-  src: url('/src/app/fonts/ProductSans-Thin.ttf') format('truetype');
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Product Sans';
-  src: url('/src/app/fonts/ProductSans-ThinItalic.ttf') format('truetype');
-  font-weight: 100;
-  font-style: italic;
-}
-
-/* html {
-  font-family: 'Product Sans', sans-serif;
-} */
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-body: var(--font-product-sans);
 }
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
 
 body {
   color: var(--foreground);
   background: var(--background);
-  /* font-family: Arial, Helvetica, sans-serif; */
-  font-family: 'Product Sans', sans-serif;
+  font-family: var(--font-body), sans-serif;
 }
 
 @layer utilities {
