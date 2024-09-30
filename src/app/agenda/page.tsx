@@ -43,10 +43,10 @@ export default function Agenda() {
     <div>
       <Navbar/>
       <Header title="Agenda"/>
-      <div className="mx-4 md:mx-24 my-6">
+      <div className="mx-4 md:mx-24 mt-6">
         <h3 className="text-2xl font-bold">Main Hall</h3>
       </div>
-      <div className="mx-4 md:mx-24">
+      <div className="mx-4 md:mx-24 py-6">
         {agendaList.map((agenda, index) => (
           <div key={index} className="flex flex-col items-center gap-4">
             <AccordionItem title={agenda.title} time={agenda.time} speaker={agenda.speaker}/>

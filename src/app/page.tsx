@@ -3,24 +3,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Countdown from "./components/CountdownTimer";
 import TextCard from "./components/TextCard";
-
-const takeAwayList = [
-  {
-    "title": "Learn",
-    "color": "red",
-    "description": "Join technical sessions and Q&As to help you apply the latest announcements from Google I/O."
-  },
-  {
-    "title": "Connect",
-    "color": "green",
-    "description": "Join technical sessions and Q&As to help you apply the latest announcements from Google I/O."
-  },
-  {
-    "title": "Build",
-    "color": "yellow",
-    "description": "Join technical sessions and Q&As to help you apply the latest announcements from Google I/O."
-  },
-]
+import Link from "next/link";
 
 
 export default function Home() {
@@ -36,9 +19,9 @@ export default function Home() {
           className="w-full max-w-[700px] h-auto"
         />
         <div className='mt-4'>
-          <button className="bg-blue-700 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded">
-            Register Now
-          </button>
+            <button className="bg-blue-700 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded">
+              <Link href="https://konfhub.com/google-cloud-community-day-kochi-2024">Register Now</Link> 
+            </button>
         </div>
       </div>
       <div className="container w-full bg-gray-600 mx-auto p-5">
