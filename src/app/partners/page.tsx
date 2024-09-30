@@ -62,17 +62,15 @@ const giftPartner = [
 ]
 
 
-
-
 export default function Partners(){
   return (
     <div>
       <Navbar/>
       <Header title="Partners"/>
-      <div className="mx-4 my-12 md:mx-24">
-        <div className="grid grid-cols-1 gap-12 md:gap-24 py-12">
+      <div className="mx-4 my-6 mt-0 md:mx-24">
+        <div className="grid grid-cols-1 gap-12 md:gap-24 py-6">
           <div>
-            <div className="bg-gray-900  text-white py-6">
+            <div className="google-grey-900  text-white py-6">
               <h1 className="text-3xl md:text-4xl font-semibold text-center">Silver Sponsor</h1>
             </div>
             <div className="grid grid-cols-2 gap-12 md:gap-24 sm:grid-cols-2 lg:grid-cols-4 py-12">
@@ -93,7 +91,7 @@ export default function Partners(){
             </div>
           </div>
           <div>
-            <div className="bg-gray-900  text-white py-6">
+            <div className="google-grey-900  text-white py-6">
               <h1 className="text-3xl md:text-4xl font-semibold text-center">Gift Partner</h1>
             </div>
             <div className="grid grid-cols-1 gap-12 md:gap-24 sm:grid-cols-1 lg:grid-cols-4 py-12">
@@ -114,7 +112,7 @@ export default function Partners(){
             </div>
           </div>
           <div>
-            <div className="bg-gray-900  text-white py-6">
+            <div className="google-grey-900 text-white py-6">
               <h1 className="text-3xl md:text-4xl font-semibold text-center">Community Partners</h1>
             </div>
             <div className="grid grid-cols-1 gap-12 md:gap-24 sm:grid-cols-1 lg:grid-cols-4 py-12">
