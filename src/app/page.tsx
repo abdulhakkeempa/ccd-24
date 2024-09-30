@@ -30,7 +30,7 @@ export default function Home() {
         <div className="p-5 py-12">
           <h1 className="text-4xl font-semibold text-gray-800">What is Cloud Community Day?</h1>
           <p className="text-lg text-gray-800">
-            Google Cloud Community Day 2024 is your chance to dive deep into the world of AI and Google Cloud. As the flagship event of Google Developer Groups Cloud Kochi, it's a unique opportunity to learn from industry experts, gain practical skills, and connect with fellow tech enthusiasts. Join us as we explore Google's vision of making AI and Cloud services accessible to everyone and building a thriving community together.
+            Google Cloud Community Day 2024 is your chance to dive deep into the world of AI and Google Cloud. As the flagship event of Google Developer Groups Cloud Kochi, it&apos;s a unique opportunity to learn from industry experts, gain practical skills, and connect with fellow tech enthusiasts. Join us as we explore Google&apos;s vision of making AI and Cloud services accessible to everyone and building a thriving community together.
           </p>
           <div className="pt-5">
             <h1 className="text-xl font-semibold text-gray-900">Why should you attend this?</h1>
