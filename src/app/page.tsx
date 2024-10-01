@@ -34,10 +34,10 @@ export default function Home() {
           </p>
           <div className="pt-5">
             <h1 className="text-xl font-semibold text-gray-900">Why should you attend this?</h1>
-            <ul className="gap-2 text-lg pt-2">
-              <li className="">· Master AI applications: Learn how to leverage AI across industries and unlock its potential for your business.</li>
-              <li className="">· Explore cutting-edge Cloud technologies: Discover the latest Google Cloud tools and services, and how they can empower your initiatives.</li>
-              <li className="">· Learn from real-world examples: See how other organizations are successfully using AI and Google Cloud to achieve their goals.</li>
+            <ul className="gap-2 text-lg pt-2 list-disc">
+              <li>Master AI applications: Learn how to leverage AI across industries and unlock its potential for your business.</li>
+              <li>Explore cutting-edge Cloud technologies: Discover the latest Google Cloud tools and services, and how they can empower your initiatives.</li>
+              <li>Learn from real-world examples: See how other organizations are successfully using AI and Google Cloud to achieve their goals.</li>
             </ul>
           </div>
         </div>
