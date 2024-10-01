@@ -19,16 +19,34 @@ const speakers = [
     company: ""
   },
   {
-    image: '/images/speakers/Abhishek.JPG',
-    name: 'Abhishek Sharma',
-    designation: 'Senior Cloud Engineer at Searce Inc.',
-    company: "Google Developer Expert for GCP"
+    image: '/images/speakers/Deepu.jpeg',
+    name: 'Deepu Xavier',
+    designation: 'Co-founder at ZappyHire',
+    company: ""
+  },
+  {
+    image: '/images/speakers/Nitin Suresh.jpg',
+    name: 'Nitin Suresh',
+    designation: 'Senior Associate, Product Management at ZappyHire',
+    company: ""
+  },
+  {
+    image: '/images/speakers/Rejion Jose.jpg',
+    name: 'Rejin Jose K',
+    designation: 'Deputy Manager Business Analytics at Allianz Services',
+    company: ""
   },
   {
     image: '/images/speakers/Sachin.jpg',
     name: 'Sachin Kumar',
     designation: 'Senior VP of Product Engineering at Intellitek.AI',
     company: "Google Developer Expert, Google for Startups Accelerator Mentor"
+  },
+  {
+    image: '/images/speakers/Abhishek.JPG',
+    name: 'Abhishek Sharma',
+    designation: 'Senior Cloud Engineer at Searce Inc.',
+    company: "Google Developer Expert for GCP"
   },
   {
     image: '/images/speakers/Anubhav Singh.png',
@@ -53,24 +71,6 @@ const speakers = [
     name: 'Biswanath',
     designation: 'Google Cloud Principal Architect',
     company: "Google Developer Expert for GCP"
-  },
-  {
-    image: '/images/speakers/Rejion Jose.jpg',
-    name: 'Rejin Jose K',
-    designation: 'Deputy Manager Business Analytics at Allianz Services',
-    company: ""
-  },
-  {
-    image: '/images/speakers/Deepu.jpeg',
-    name: 'Deepu Xavier',
-    designation: 'Co-founder at ZappyHire',
-    company: ""
-  },
-  {
-    image: '/images/speakers/Nitin Suresh.jpg',
-    name: 'Nitin Suresh',
-    designation: 'Senior Associate- Product Management at ZappyHire',
-    company: ""
   },
 ];
 
