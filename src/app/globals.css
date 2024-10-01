@@ -98,3 +98,16 @@ p {
 .google-grey-900 {
   background-color: #202124;
 }
+
+.team-role {
+  color: #202124;
+  border: solid 2px #202124;
+}
+
+.team-role:hover {
+  color: #e8eaed;
+  background-color: #202124;
+  border: solid 2px #202124;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
