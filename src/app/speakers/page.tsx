@@ -9,26 +9,26 @@ const speakers = [
   {
     image: '/images/speakers/Abirami.jpeg',
     name: 'Abhirami Sukumaran',
-    designation: 'Lead Developer Advocate',
-    company: "Google"
+    designation: 'Lead Developer Advocate at Google',
+    company: ""
   },
   {
     image: '/images/speakers/Dana Vishnu.jpg',
     name: 'Dana Vishnu',
-    designation: 'Software Engineer, Microsoft',
-    company: "Microsoft"
+    designation: 'Software Engineer II at Microsoft',
+    company: ""
   },
   {
     image: '/images/speakers/Abhishek.JPG',
     name: 'Abhishek Sharma',
-    designation: 'Senior Cloud Engineer, Searce Inc',
+    designation: 'Senior Cloud Engineer at Searce Inc.',
     company: "Google Developer Expert for GCP"
   },
   {
     image: '/images/speakers/Sachin.jpg',
     name: 'Sachin Kumar',
     designation: 'Senior VP of Product Engineering at Intellitek.AI',
-    company: "GDE, Google for Startups Accelerator Mentor"
+    company: "Google Developer Expert, Google for Startups Accelerator Mentor"
   },
   {
     image: '/images/speakers/Anubhav Singh.png',
@@ -39,14 +39,14 @@ const speakers = [
   {
     image: '/images/speakers/Varun.png',
     name: 'Varun Raj',
-    designation: 'Co-founder & CIO, Skcript',
+    designation: 'Co-founder & CIO at Skcript',
     company: "Google Developer Expert for Firebase"
   },
   {
     image: '/images/speakers/Ayush.jpg',
     name: 'Aayush Arora',
-    designation: 'Founder',
-    company: "FilterPixel"
+    designation: 'Founder at FilterPixel',
+    company: "Google Developer Expert for GCP"
   },
   {
     image: '/images/speakers/Biswanath.jpeg',
@@ -57,20 +57,20 @@ const speakers = [
   {
     image: '/images/speakers/Rejion Jose.jpg',
     name: 'Rejin Jose K',
-    designation: 'Deputy Manager Business Analytics',
-    company: "Allianz Services"
+    designation: 'Deputy Manager Business Analytics at Allianz Services',
+    company: ""
   },
   {
     image: '/images/speakers/Deepu.jpeg',
     name: 'Deepu Xavier',
-    designation: 'Co-founder',
-    company: "ZappyHire"
+    designation: 'Co-founder at ZappyHire',
+    company: ""
   },
   {
     image: '/images/speakers/Nitin Suresh.jpg',
     name: 'Nitin Suresh',
-    designation: 'Senior Associate- Product Management',
-    company: "ZappyHire"
+    designation: 'Senior Associate- Product Management at ZappyHire',
+    company: ""
   },
 ];
 
