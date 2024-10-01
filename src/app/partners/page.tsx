@@ -7,6 +7,11 @@ import Image from "next/image";
 
 const communityPartners = [
   {
+    name: 'Kerala Startup Mission (KSUM)',
+    link: 'https://startupmission.kerala.gov.in/',
+    image: '/images/partners/community/ksum.png'
+  },
+  {
     name: 'TiE Kerala',
     link: 'https://kerala.tie.org',
     image: '/images/partners/community/w.png'
@@ -79,10 +84,10 @@ export default function Partners(){
                 <Link href={partner.link}>
                 <div className="w-36 h-36 relative">
                   <Image 
-                  src={partner.image} 
-                  alt={partner.name} 
-                  layout="fill" 
-                  objectFit="contain" 
+                    src={partner.image} 
+                    alt={partner.name} 
+                    layout="fill" 
+                    objectFit="contain" 
                   />
                 </div>
                 </Link>
