@@ -27,9 +27,9 @@ const communityPartners = [
     image: '/images/partners/community/gtech.jpg'
   },
   {
-    name: 'Grafana Kochi',
-    link: 'https://www.meetup.com/grafana-and-friends-kochi/',
-    image: '/images/partners/community/Grafana Kochi.png'
+    name: 'TinkerHub',
+    link: 'https://tinkerhub.org',
+    image: '/images/partners/community/tinkerhub.png'
   },
   {
     name: 'DevOps Malayalam',
@@ -45,6 +45,11 @@ const communityPartners = [
     name: 'Riglabs',
     link: 'https://riglabs.co/',
     image: '/images/partners/community/[01] Logo - Riglabs - Powered by Zilicon - Dark.svg'
+  },
+  {
+    name: 'Grafana Kochi',
+    link: 'https://www.meetup.com/grafana-and-friends-kochi/',
+    image: '/images/partners/community/Grafana Kochi.png'
   },
 ]
 
@@ -63,6 +68,11 @@ const giftPartner = [
     name: 'Fulva',
     link: 'https://fulva.in',
     image: '/images/partners/gift/fulva.png'
+  },
+  {
+    name: 'Fabus Frames',
+    link: 'https://fabusframes.com/',
+    image: '/images/partners/gift/fulva.png'
   }
 ]
 
@@ -78,7 +88,7 @@ export default function Partners(){
             <div className="google-grey-900  text-white py-6">
               <h1 className="text-3xl md:text-4xl font-semibold text-center">Event Support Sponsor</h1>
             </div>
-            <div className="grid grid-cols-1 gap-12 md:gap-24 sm:grid-cols-1 lg:grid-cols-4 py-12">
+            <div className="grid grid-cols-1 gap-12 md:gap-24 sm:grid-cols-1 lg:grid-cols-1 py-12">
               {silverSponsor.map((partner, index) => (
                 <div key={index} className="flex justify-center items-center">
                 <Link href={partner.link}>
