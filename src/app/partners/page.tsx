@@ -69,11 +69,11 @@ const giftPartner = [
     link: 'https://fulva.in',
     image: '/images/partners/gift/fulva.png'
   },
-  {
-    name: 'Fabus Frames',
-    link: 'https://fabusframes.com/',
-    image: '/images/partners/gift/fulva.png'
-  }
+  // {
+  //   name: 'Fabus Frames',
+  //   link: 'https://fabusframes.com/',
+  //   image: '/images/partners/gift/fulva.png'
+  // }
 ]
 
 
