@@ -13,6 +13,12 @@ const speakers = [
     company: ""
   },
   {
+    image: '/images/speakers/Arun Tej.jpeg',
+    name: 'Arun Teja Godavarthi',
+    designation: 'Developer Relations at Google for Developers',
+    company: ""
+  },
+  {
     image: '/images/speakers/Dana Vishnu.jpg',
     name: 'Dana Vishnu',
     designation: 'Software Engineer II at Microsoft',
