@@ -23,10 +23,10 @@ export default function Navbar() {
           <Link href="/speakers" className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-gray-900 mr-4">
               Speakers
           </Link>
-          {/* <Link href="/agenda" className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-gray-900">
+         <Link href="/agenda" className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-gray-900">
               Agenda
-          </Link> */}
-          <Link href="/partners" className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-gray-900 mr-4">
+          </Link> 
+          <Link href="/partners" className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-gray-900 mr-4"> 
               Partners
           </Link>
 
