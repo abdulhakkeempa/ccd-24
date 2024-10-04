@@ -69,11 +69,11 @@ const giftPartner = [
     link: 'https://fulva.in',
     image: '/images/partners/gift/fulva.png'
   },
-  // {
-  //   name: 'Fabus Frames',
-  //   link: 'https://fabusframes.com/',
-  //   image: '/images/partners/gift/fulva.png'
-  // }
+  {
+    name: 'Fabus Frames',
+    link: 'https://fabusframes.com/',
+    image: '/images/partners/gift/fabus.jpeg'
+  }
 ]
 
 
@@ -109,7 +109,7 @@ export default function Partners(){
             <div className="google-grey-900  text-white py-6">
               <h1 className="text-3xl md:text-4xl font-semibold text-center">Gift Partner</h1>
             </div>
-            <div className="grid grid-cols-1 gap-12 md:gap-24 sm:grid-cols-1 lg:grid-cols-4 py-12">
+            <div className="grid grid-cols-1 gap-12 md:gap-24 sm:grid-cols-1 justify-center lg:grid-cols-2 py-12">
               {giftPartner.map((partner, index) => (
                 <div key={index} className="flex justify-center items-center">
                 <Link href={partner.link}>

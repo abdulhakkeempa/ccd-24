@@ -20,7 +20,7 @@ export default function Navbar() {
       </div>
       <div className={`${isOpen ? 'block' : 'hidden'} w-full block flex-grow lg:flex lg:items-center lg:w-auto`}>
         <div className="md:flex md:flex-row md:items-center text-base lg:flex-grow lg:flex lg:justify-end lg:space-x-7">
-          <Link href="/speakers" className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-gray-900 mr-4">
+          <Link href="/speakers" className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-gray-900">
               Speakers
           </Link>
          <Link href="/agenda" className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-gray-900 mr-4">
