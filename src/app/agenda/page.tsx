@@ -142,7 +142,7 @@ export default function Agenda() {
               {track.sessions.map((session, sessionIndex) => (
                 <div key={sessionIndex} className="flex flex-col items-center gap-4">
                   <AccordionItem 
-                    title={session.topic} 
+                    title={session.title} 
                     time={session.time} 
                     speaker={session.speaker}
                   />
