@@ -12,9 +12,11 @@ export default function AgendaItem({ title, time, speaker }: AgendaItemProps) {
         <h1 className="text-base font-medium text-gray-800">|</h1>
         <h1 className="text-base font-medium text-gray-800">{title}</h1>
       </div>
-      <div className="flex items-center justify-center">
-        <p className="mt-2 text-base font-semibold text-gray-800">Speaker: {speaker}</p>
-      </div>
+      {speaker && (
+        <div className="flex items-center justify-center">
+          <p className="mt-2 text-base font-semibold text-gray-800">Speaker: {speaker}</p>
+        </div>
+      )}
     </div>
   );
 }
