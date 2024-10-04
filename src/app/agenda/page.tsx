@@ -50,7 +50,23 @@ const agendaList = [
         "title": "Lunch break",
         "time": "12:45 PM - 2:00 PM",
         "speaker": ""
+      },
+      {
+        "title": "Reveal",
+        "time": "5:20 PM - 5:35 PM",
+        "speaker": ""
+      },
+      {
+        "title": "Closing Notes",
+        "time": "5:45 PM - 6:00 PM",
+        "speaker": ""
+      },
+      {
+        "title": "Networking",
+        "time": "6:00 PM - 6:20 PM",
+        "speaker": ""
       }
+
     ]
   },
   {
@@ -118,26 +134,6 @@ const agendaList = [
         "time": "4:35 PM - 5:10 PM",
         "speaker": "Biswanath Giri",
         "topic": "Securing the Future: Safeguarding GenAI Systems"
-      }
-    ]
-  },
-  {
-    "track": "Main Hall",
-    "sessions": [
-      {
-        "title": "Reveal",
-        "time": "5:20 PM - 5:35 PM",
-        "speaker": ""
-      },
-      {
-        "title": "Closing Notes",
-        "time": "5:45 PM - 6:00 PM",
-        "speaker": ""
-      },
-      {
-        "title": "Networking",
-        "time": "6:00 PM - 6:20 PM",
-        "speaker": ""
       }
     ]
   }
