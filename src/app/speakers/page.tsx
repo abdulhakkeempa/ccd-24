@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 const speakers = [
   {
     image: '/images/speakers/Abirami.jpeg',
-    name: 'Abhirami Sukumaran',
+    name: 'Abirami Sukumaran',
     designation: 'Lead Developer Advocate at Google',
     company: ""
   },
