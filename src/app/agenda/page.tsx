@@ -35,12 +35,12 @@ const agendaList = [
       },
       {
         "title": "Brief Overview of the Event",
-        "time": "11:45 AM - 12:00 PM",
+        "time": "11:45 AM - 11:50 PM",
         "speaker": ""
       },
       {
         "title": "Through My Eyes: A Developer Retrospective",
-        "time": "12:05 PM - 12:40 PM",
+        "time": "11:55 PM - 12:40 PM",
         "speaker": "Rejin Jose K"
       },
       {
@@ -49,13 +49,18 @@ const agendaList = [
         "speaker": ""
       },
       {
+        "title": "Tea break",
+        "time": "5:10 PM - 5:35 PM",
+        "speaker": ""
+      },
+      {
         "title": "Reveal",
-        "time": "5:20 PM - 5:35 PM",
+        "time": "5:40 PM - 5:45 PM",
         "speaker": ""
       },
       {
         "title": "Closing Notes",
-        "time": "5:45 PM - 6:00 PM",
+        "time": "5:50 PM - 6:00 PM",
         "speaker": ""
       },
       {
@@ -69,14 +74,14 @@ const agendaList = [
     "track": "Track 1",
     "sessions": [
       {
-        "title": "Interactives",
-        "time": "2:00 PM - 2:15 PM",
-        "speaker": ""
+        "title": "Building Powerful AI Agents using Vertex AI Agent Builder",
+        "time": "2:00 PM - 2:35 PM",
+        "speaker": "Sachin Kumar"
       },
       {
-        "title": "Building Powerful AI Agents using Vertex AI Agent Builder",
-        "time": "2:20 PM - 2:55 PM",
-        "speaker": "Sachin Kumar"
+        "title": "Interactives",
+        "time": "2:45 PM - 3:00 PM",
+        "speaker": ""
       },
       {
         "title": "Building AI Apps with Firebase Genkit and Gemini",
@@ -99,14 +104,14 @@ const agendaList = [
     "track": "Track 2",
     "sessions": [
       {
-        "title": "Interactives",
-        "time": "2:00 PM - 2:15 PM",
-        "speaker": ""
+        "title": "Exploring Goroutines as Cognitive Threads in Go",
+        "time": "2:00 PM - 2:35 PM",
+        "speaker": "Anubhav Singh"
       },
       {
-        "title": "Exploring Goroutines as Cognitive Threads in Go",
-        "time": "2:20 PM - 2:55 PM",
-        "speaker": "Anubhav Singh"
+        "title": "Interactives",
+        "time": "2:45 PM - 3:00 PM",
+        "speaker": ""
       },
       {
         "title": "Unleashing the Potential of GKE for Next-Level Solutions",
