@@ -2,7 +2,7 @@
 
 import {useEffect, useState} from "react";
 
-const endDate = new Date("2024-10-05T22:00:00");
+const endDate = new Date("2024-10-06T08:30:00");
 
 interface NumberProps {
   count: number;
@@ -60,7 +60,7 @@ export default function Countdown() {
     return (
       <div className="flex flex-col gap-4 item-center">
         <div className="flex item-center justify-center">
-            <h2 className="text-white text-xl text-center">Registration closes in</h2>
+            <h2 className="text-white text-xl text-center">We will go live in</h2>
         </div>
         <div className="clock w-100 my-5 text-white flex justify-center space-x-0 sm:space-x-6">
             <Number count={date.day} label={"days"}/>
