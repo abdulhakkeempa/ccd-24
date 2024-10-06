@@ -29,7 +29,7 @@ const agendaList = [
         "speaker": ""
       },
       {
-        "title": "Gemini",
+        "title": "All Things Gemini",
         "time": "11:25 AM - 11:40 AM",
         "speaker": "Arun Teja Godavarthi"
       },
