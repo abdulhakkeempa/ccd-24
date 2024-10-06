@@ -30,12 +30,12 @@ export default function Navbar() {
               Partners
           </Link>
 
-          <div className='mt-4 md:mt-0'>
+          {/* <div className='mt-4 md:mt-0'>
           
             <button className="google-blue text-white font-medium py-2 px-4 rounded">
               <Link href="https://konfhub.com/google-cloud-community-day-kochi-2024">Register Now</Link> 
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>
