@@ -23,9 +23,9 @@ export default function Home() {
             </button>
         </div>
       </div>
-      <div className="container w-full google-blue mx-auto p-5">
+      {/* <div className="container w-full google-blue mx-auto p-5">
         <Countdown />
-      </div>
+      </div> */}
       <div className="px-4 md:px-24">
         <div className="p-5 py-12">
           <h1 className="text-4xl font-semibold text-gray-800">What is Cloud Community Day?</h1>
