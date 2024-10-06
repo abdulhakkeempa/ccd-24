@@ -29,6 +29,9 @@ export default function Navbar() {
           <Link href="/partners" className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-gray-900 mr-4"> 
               Partners
           </Link>
+          <Link href="https://gaia.gdgcloudkochi.com" className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-gray-900 mr-4"> 
+              Gaia: Forest App
+          </Link>
           <Link href="https://forms.gle/F4M88tLspaD7uiTY7" className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-gray-900 mr-4"> 
               Cryptex
           </Link>
